@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="main.css">
     <meta charset="utf-8">
-    <style media="screen">
-      #fondo
-        {
-          background-color: black;
-          border: 1px solid black;
-        }
-    </style>
-    <title>snake</title>
+    
+    <title>SNAKE ||The game</title>
   </head>
   <body onkeydown="control(event)">
-    <p>puntaje es = <span id="contador">0</span> </p>
+    <h1> <strong>SNAKE</strong> || THE GAME </h1>
+    <div class="contenedor">
+      <canvas id="fondo" width="500" height="500"></canvas>
+      <div class="texto">
+        <h2>INSTRUCCIONES</h2>
+        <P>Para jugar se usan las direccionales/flechas. <br>
+        este es el juego legendario de snake. lo recree para desarrollar mis habilidades en javascript.
+      
+        espero te guste tanto como a mi me gusto reecrearlo.</P>
+      	<p>puntaje  es = <span id="contador">0</span> </p>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
     <script src="main.js" charset="utf-8"></script>
-    <canvas id="fondo" width="500" height="500"></canvas>
   </body>
 </html>
