@@ -1,0 +1,30 @@
+#fondo
+    {
+      background-color: black;
+      
+    }
+html
+{
+    font-size: 32px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #1d2d50;
+    color: #fcdab7;
+}
+h1
+{
+    margin: 0.5rem;
+}
+.contenedor
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    
+}
+.contenedor canvas
+{
+    border: 12px ridge #FCDAB7;
+    border-radius: 0.5rem;
+}
